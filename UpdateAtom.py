@@ -130,7 +130,7 @@ else:
         verify_configuration()
         download(version)
         unzip()
-        # install()
+        install()
         clean()
         print("Done.")
         input("Press ENTER to terminate.")
